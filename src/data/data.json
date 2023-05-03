@@ -22,32 +22,32 @@
     {
       "title": "Project Title",
       "largeImage": "img/galerie/1.jpg",
-      "smallImage": "img/galerie/1.jpg"
+      "smallImage": "img/galerie/small/1.jpg"
     },
     {
       "title": "Project Title",
       "largeImage": "img/galerie/2.jpg",
-      "smallImage": "img/galerie/2.jpg"
+      "smallImage": "img/galerie/small/2.jpg"
     },
     {
       "title": "Project Title",
       "largeImage": "img/galerie/3.jpg",
-      "smallImage": "img/galerie/3.jpg"
+      "smallImage": "img/galerie/small/3.jpg"
     },
     {
       "title": "Project Title",
       "largeImage": "img/galerie/5.jpg",
-      "smallImage": "img/galerie/5.jpg"
+      "smallImage": "img/galerie/small/5.jpg"
     },
     {
       "title": "Project Title",
       "largeImage": "img/galerie/6.jpg",
-      "smallImage": "img/galerie/6.jpg"
+      "smallImage": "img/galerie/small/6.jpg"
     },
     {
       "title": "Project Title",
       "largeImage": "img/galerie/7.jpg",
-      "smallImage": "img/galerie/7.jpg"
+      "smallImage": "img/galerie/small/7.jpg"
     }
   ],
   "Services": [
