@@ -18,16 +18,16 @@ h2 {
   margin: 0 0 20px;
   font-weight: 800;
   font-size: 36px;
-  color: #333;
+  color: #f1f1f1b5;
 }
 h3 {
   font-size: 20px;
   font-weight: 600;
-  color: #333;
+  color: #f1f1f1b5;
 }
 h4 {
   font-size: 18px;
-  color: #333;
+  color: #f1f1f1b5;
   font-weight: 600;
 }
 h5 {
@@ -36,6 +36,7 @@ h5 {
   line-height: 20px;
 }
 p {
+  font-weight: 600;
   font-size: 15px;
 }
 p.intro {
@@ -76,7 +77,7 @@ hr {
   transition: all 0.8s;
 }
 #menu.navbar-default {
-  background-color: #fff;
+  background-color: #0a0708;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
@@ -84,13 +85,13 @@ hr {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
   font-weight: 700;
-  color: #333;
+  color: #f1f1f1b5;
   text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  color: #555;
+  color: #f1f1f1b5;
   font-size: 15px;
   font-weight: 400;
   padding: 8px 2px;
@@ -104,7 +105,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #f1f1f1b5 0%, #fff 100%);
   content: "";
   transition: width 0.2s;
 }
@@ -125,7 +126,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+  background: linear-gradient(to right, #f1f1f1b5 0%, #fff 100%);
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -134,7 +135,7 @@ hr {
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #fff;
+  background-color: #0a0708;
   border-color: #608dfd;
 }
 .navbar-default .navbar-toggle:hover > .icon-bar {
@@ -152,7 +153,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #f1f1f1b5 0%, #fff 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -161,13 +162,14 @@ hr {
 }
 .section-title p {
   font-size: 18px;
+  color: #f1f1f1b5;
 }
 .btn-custom {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
   background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #f1f1f1b5 0%, #fff 100%);
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -205,6 +207,7 @@ a:focus,
 }
 /* Header Section */
 .intro {
+  background-color: #0a0708;
   display: table;
   width: 100%;
   padding: 0;
@@ -243,24 +246,10 @@ header .intro-text {
   padding-bottom: 200px;
   text-align: center;
 }
-/* Features Section */
-#features {
-  background: #f6f6f6;
-}
-#features i.fa {
-  font-size: 38px;
-  margin-bottom: 20px;
-  transition: all 0.5s;
-  color: #fff;
-  width: 100px;
-  height: 100px;
-  padding: 30px 0;
-  border-radius: 50%;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
-}
+
 /* About Section */
 #about {
+  background-color: #0a0708;
   padding: 100px 0;
 }
 #about h3 {
@@ -275,7 +264,7 @@ header .intro-text {
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #f1f1f1b5 0%, #fff 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -305,52 +294,12 @@ header .intro-text {
 #about p {
   line-height: 24px;
   margin: 30px 0;
-}
-/* Services Section */
-#services {
-  padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  color: #fff;
-}
-#services .service-desc {
-  margin: 10px 10px 20px;
-}
-#services h2 {
-  color: #fff;
-}
-#services .section-title h2::after {
-  position: absolute;
-  content: "";
-  background: rgba(255, 255, 255, 0.3);
-  height: 4px;
-  width: 60px;
-  bottom: 0;
-  margin-left: -30px;
-  left: 50%;
-}
-#services i.fa {
-  font-size: 42px;
-  width: 120px;
-  height: 120px;
-  padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  border-radius: 50%;
-  color: #fff;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
-}
-#services h3 {
-  font-weight: 500;
-  padding: 5px 0;
-  color: #fff;
-}
-#services p {
-  color: rgba(255, 255, 255, 0.75);
-}
-#services .service-desc {
-  margin-bottom: 40px;
+  font-weight: 600;
+  color: #f1f1f1b5;
 }
 /* Portfolio Section */
 #portfolio {
+  background-color: #0a0708;
   padding: 100px 0;
 }
 .portfolio-item {
@@ -398,68 +347,10 @@ header .intro-text {
 .hover-bg:hover .hover-text {
   opacity: 1;
 }
-/* Testimonials Section */
-#testimonials {
-  padding: 100px 0;
-  background: #f6f6f6;
-}
-#testimonials i {
-  color: #e6e6e6;
-  font-size: 32px;
-  margin-bottom: 20px;
-}
-.testimonial {
-  position: relative;
-  padding: 20px;
-}
-.testimonial-image {
-  float: left;
-  margin-right: 15px;
-}
-.testimonial-image,
-.testimonial-image img {
-  display: block;
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-}
-.testimonial-content {
-  position: relative;
-  overflow: hidden;
-}
-.testimonial-content p {
-  margin-bottom: 0;
-  font-size: 14px;
-  font-style: italic;
-}
-.testimonial-meta {
-  margin-top: 10px;
-  font-size: 15px;
-  font-weight: 600;
-  color: #666;
-}
-/* Team Section */
-#team {
-  padding: 100px 0;
-}
-#team h4 {
-  margin: 5px 0;
-}
-#team .team-img {
-  width: 240px;
-}
-#team .thumbnail {
-  background: transparent;
-  border: 0;
-}
-#team .thumbnail .caption {
-  padding: 10px 0 0;
-  color: #888;
-}
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background-color: #0a0708;
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -469,7 +360,7 @@ header .intro-text {
   font-size: 16px;
 }
 #contact h2 {
-  color: #fff;
+  color: #f1f1f1b5;
   margin-top: 10px;
   margin-bottom: 15px;
   padding-bottom: 15px;
@@ -484,7 +375,7 @@ header .intro-text {
   left: 30px;
 }
 #contact h3 {
-  color: #fff;
+  color: #f1f1f1b5;
   margin-top: 80px;
   margin-bottom: 25px;
   padding-bottom: 20px;
@@ -500,11 +391,11 @@ header .intro-text {
 #contact .btn-custom {
   margin: 30px 0;
   background: transparent;
-  border: 2px solid #fff;
+  border: 2px solid #f1f1f1b5;
 }
 #contact .btn-custom:hover {
   color: #1f386e;
-  background: #fff;
+  background: #f1f1f1b5;
 }
 label {
   font-size: 12px;
@@ -519,7 +410,7 @@ label {
   font-size: 16px;
   line-height: 1.42857143;
   color: #444;
-  background-color: #fff;
+  background-color: #0a0708;
   background-image: none;
   border: 1px solid #ddd;
   border-radius: 0;
@@ -551,7 +442,7 @@ label {
   margin: 20px 0;
 }
 #contact .contact-item span {
-  color: rgba(255, 255, 255, 1);
+  color: #f1f1f1b5;
   margin-bottom: 10px;
   display: block;
 }
@@ -573,14 +464,14 @@ label {
   width: 48px;
   height: 48px;
   padding: 12px 0;
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid #f1f1f1b5;
+  color: #f1f1f1b5;
   border-radius: 50%;
   transition: all 0.3s;
 }
 #contact .social i.fa:hover {
   color: #608dfd;
-  background: #fff;
+  background: #f1f1f1b5;
 }
 
 #social {
@@ -599,30 +490,24 @@ label {
   width: 48px;
   height: 48px;
   padding: 12px 0;
-  border: 2px solid black;
-  color: black;
+  border: 2px solid #f1f1f1b5;
+  color: #f1f1f1b5;
   border-radius: 50%;
   transition: all 0.3s;
 }
 #social .social i.fa:hover {
-  color: black;
-  background: black;
+  color: #608dfd;
+  background: #f1f1f1b5;
 }
 
 /* Footer Section*/
 #footer {
-  background: #f6f6f6;
+  background: #0a0708;
   padding: 30px 0;
 }
 #footer p {
-  color: #888;
+  color: #f1f1f1b5;
   font-size: 14px;
-}
-#footer a {
-  color: #608dfd;
-}
-#footer a:hover {
-  border-bottom: 2px solid #608dfd;
 }
 
 @media (max-width: 768px) {
