@@ -8,7 +8,7 @@ export const About = (props) => {
         <div className="row">
           <div className="col-xs-12 col-md-6">
             <LazyLoad>
-              <img src="img/ondra.jpeg" className="img-responsive" alt="" />
+              <img src="img/ondra.webp" className="img-responsive" alt="" />
             </LazyLoad>
           </div>
           <div className="col-xs-12 col-md-6">
