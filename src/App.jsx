@@ -39,16 +39,6 @@ const App = () => {
                 <i className="fa fa-instagram"></i>
               </a>
             </li>
-            {/* <li>
-                    <a href={props.data ? props.data.facebook : "/"}>
-                      <i className="fa fa-spotify"></i>
-                    </a>
-                  </li> */}
-            {/* <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                  </li> */}
             <li>
               <a href="https://www.youtube.com/@ondrejaneurysm4454">
                 <i className="fa fa-youtube"></i>

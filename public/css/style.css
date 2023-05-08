@@ -237,7 +237,7 @@ a:focus,
 
 .intro h1 {
   font-family: "Raleway", sans-serif;
-  color: #f1f1f1b5;
+  color: #f1f1f1;
   font-size: 82px;
   font-weight: 700;
   text-transform: uppercase;
@@ -502,7 +502,31 @@ label {
   background: #f1f1f1b5;
 }
 
+#menu .social {
+  margin-top: 6px;
+  text-align: center;
+}
+#menu .social ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+#menu .social i.fa {
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  padding: 9px 0;
+  border: 2px solid #f1f1f1b5;
+  color: #f1f1f1b5;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+#menu .social i.fa:hover {
+  color: #608dfd;
+  background: #f1f1f1b5;
+}
+
 #social {
+  display: none;
   position: fixed;
   left: 20px;
   top: 50%;

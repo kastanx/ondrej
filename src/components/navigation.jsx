@@ -37,6 +37,27 @@ export const Navigation = (props) => {
                 Kontakt
               </a>
             </li>
+            <li>
+              <div className="social">
+                <ul>
+                  <li>
+                    <a href="https://www.facebook.com/people/ondrej_aneurysm/100069920680883/">
+                      <i className="fa fa-facebook"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/ondrej_aneurysm/">
+                      <i className="fa fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.youtube.com/@ondrejaneurysm4454">
+                      <i className="fa fa-youtube"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
           </ul>
         </div>
       </div>
