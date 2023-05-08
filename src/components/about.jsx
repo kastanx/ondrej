@@ -1,4 +1,5 @@
 import React from "react";
+import LazyLoad from "react-lazyload";
 
 export const About = (props) => {
   return (
@@ -6,7 +7,9 @@ export const About = (props) => {
       <div className="container">
         <div className="row">
           <div className="col-xs-12 col-md-6">
-            <img src="img/ondra.jpeg" className="img-responsive" alt="" />
+            <LazyLoad>
+              <img src="img/ondra.jpeg" className="img-responsive" alt="" />
+            </LazyLoad>
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
