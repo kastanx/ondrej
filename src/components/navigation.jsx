@@ -18,7 +18,7 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
           </button>
-          <a className="navbar-brand" href="#" style={{ padding: "0px" }}>
+          <a className="navbar-brand" href="#header" style={{ padding: "0px" }}>
             {/* <img className="logo-svg" src={Logo} alt="logo" height="63" /> */}
             <ReactSVG src={Logo} className="logo-svg" />
             {/* <Logo /> */}
