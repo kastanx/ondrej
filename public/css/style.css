@@ -73,7 +73,7 @@ hr {
 }
 /* Navigation */
 #menu {
-  padding: 15px;
+  padding: 10px;
   transition: all 0.8s;
 }
 #menu.navbar-default {
@@ -589,4 +589,24 @@ label {
   #about img {
     margin: 50px 0;
   }
+}
+
+@font-face {
+  font-family: "Rock Salt";
+  src: url("../fonts/fonts/RockSalt.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Red Rose";
+  src: url("../fonts/fonts/RedRose.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.logo-svg svg {
+  width: 230px;
+  height: 60px;
+  text-transform: none;
 }
