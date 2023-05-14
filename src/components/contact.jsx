@@ -10,25 +10,9 @@ export const Contact = () => {
               <h3>Kontakt</h3>
               <p>
                 <span>
-                  <i className="fa fa-map-marker"></i> Adresa
-                </span>
-                Ostrava
-              </p>
-            </div>
-            <div className="contact-item">
-              <p>
-                <span>
-                  <i className="fa fa-phone"></i> Telefon
-                </span>
-                69696969
-              </p>
-            </div>
-            <div className="contact-item">
-              <p>
-                <span>
                   <i className="fa fa-envelope-o"></i> Email
                 </span>
-                email@email.com
+                ondrej.aneurysm@gmail.com
               </p>
             </div>
           </div>
