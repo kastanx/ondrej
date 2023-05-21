@@ -60,6 +60,11 @@ export const Navigation = (props) => {
                       <i className="fa fa-youtube"></i>
                     </a>
                   </li>
+                  <li>
+                    <a href="https://open.spotify.com/artist/0ukbn3JHPURPlL4y28ACJZ?si=KAOEyuKuQ6W78L5zPn7yDw">
+                      <i className="fa fa-spotify"></i>
+                    </a>
+                  </li>
                 </ul>
               </div>
             </li>
